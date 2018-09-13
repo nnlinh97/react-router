@@ -36,7 +36,7 @@ class Login extends Component {
                         <div className="form-group">
                             <label>Username</label>
                             <input onChange={this.onChange} value={username} type="text" className="form-control" name="username" />
-                        </div>
+                        </div>   
                         <div className="form-group">
                             <label>Password</label>
                             <input onChange={this.onChange} value={password} type="password" className="form-control" name="password" />
